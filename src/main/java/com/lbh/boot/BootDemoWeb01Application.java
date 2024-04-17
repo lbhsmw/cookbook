@@ -9,7 +9,6 @@ public class BootDemoWeb01Application {
 
     public static void main(String[] args) {
 
-        ConfigurableApplicationContext c= SpringApplication.run(BootDemoWeb01Application.class, args);
+        SpringApplication.run(BootDemoWeb01Application.class, args);
     }
-
 }
